@@ -10,7 +10,6 @@ if start_dist < goal_dist:
     print('\nYou will reach your goal in ', days, ' days!\nGood luck!')
 else:
     print('\nYou have already reached your goal')
-
 curr_day_dist = start_dist
 days = 1
 while curr_day_dist < marathon:
