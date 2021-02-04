@@ -8,4 +8,4 @@ if earnings > costs:
 elif earnings == costs:
     print('\nYour doings are ok, you now have balanced costs and earnings.\nKeep working!')
 else:
-    print('\nYou lose your money. Your losses are: ', (costs - earnings), '\nTry your best!')
+    print('\nYou lose your money. Your losses are: ', (costs - earnings), '\nTry your best further!')
