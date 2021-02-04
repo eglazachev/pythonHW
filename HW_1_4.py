@@ -7,4 +7,3 @@ while number != 0:
         break
     number = number//10
 print('\nThe biggest digit in your number is ', curr_digit)
-
