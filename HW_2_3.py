@@ -1,7 +1,7 @@
-monthes_list = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August',
-           'September', 'October', 'November', 'December']
-monthes_dict = {1: 'January', 2: 'February', 3: 'March', 4: 'April', 5: 'May', 6: 'June', 7: 'July', 8: 'August',
-           9: 'September', 10: 'October', 11: 'November', 12: 'December'}
+monthes_list = ['Winter', 'Winter', 'Spring', 'Spring', 'Spring', 'Summer', 'Summer', 'Summer',
+           'Autumn', 'Autumn', 'Autumn', 'Winter']
+monthes_dict = {1: 'Winter', 2: 'Winter', 3: 'Spring', 4: 'Spring', 5: 'Spring', 6: 'Summer', 7: 'Summer', 8: 'Summer',
+           9: 'Autumn', 10: 'Autumn', 11: 'Autumn', 12: 'Winter'}
 month_number = int(input('Enter the number of month: '))
 print(monthes_list[month_number - 1])
 print(monthes_dict.get(month_number))
