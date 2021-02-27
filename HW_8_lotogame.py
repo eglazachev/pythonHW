@@ -67,7 +67,7 @@ class LottoGame:
                 print(self.comp)
                 print(self.player)
                 curr_num = choice(self.num_pool)
-                print(f'\nPrepare for the next number')
+                print(f'\n{len(self.num_pool) - 1} numbers remaining.\nPrepare for the next number')
                 sleep(1.5)
                 print(f'The next number is {curr_num}')
                 answer = input(f'Does your card contain {curr_num}? (y/n) ')
